@@ -424,7 +424,7 @@
 
       // Autoplay com pausa no hover
       let timer = null;
-      function start(){ timer = setInterval(() => goTo((index + 1) % (maxIndex + 1)), 6500); }
+      function start(){ timer = setInterval(() => goTo((index + 1) % (maxIndex + 1)), 9500); }
       function stop(){ if (timer) clearInterval(timer); }
       track.addEventListener('mouseenter', stop);
       track.addEventListener('mouseleave', start);
